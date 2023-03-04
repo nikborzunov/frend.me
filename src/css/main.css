@@ -1,0 +1,43 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.app-wraper {
+    margin: 0 auto;
+    padding: 0 10%;
+    display: grid;
+    width: 100vw;
+
+    grid-template-areas:
+        "h h"
+        "n c";
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 10fr;
+
+    grid-gap: 2vw;
+}
+
+.header {
+    grid-area: h;
+    background-color: gold;
+}
+
+.header-logo {
+    width: 10%;
+}
+
+.navbar {
+    grid-area: n;
+    background-color: green;
+}
+
+.profile {
+    grid-area: c;
+    background-color: green;
+}
+
+.profile-bc-img {
+    width: 400px;
+}
