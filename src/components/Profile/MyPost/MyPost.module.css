@@ -1,0 +1,7 @@
+.mypost__inputArea{
+    display: flex;
+}
+
+.mypost__inputArea_item{
+    width: 200px;
+}

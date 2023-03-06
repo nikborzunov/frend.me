@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
     padding: 0 10%;
     display: grid;
-    width: 100vw;
+    width: 70vw;
 
     grid-template-areas:
         "h h"
@@ -19,25 +19,3 @@ body {
     grid-gap: 2vw;
 }
 
-.header {
-    grid-area: h;
-    background-color: gold;
-}
-
-.header-logo {
-    width: 10%;
-}
-
-.navbar {
-    grid-area: n;
-    background-color: green;
-}
-
-.profile {
-    grid-area: c;
-    background-color: green;
-}
-
-.profile-bc-img {
-    width: 400px;
-}

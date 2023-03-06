@@ -1,0 +1,19 @@
+
+.navbar {
+    grid-area: n;
+    background-color: #fffafa;
+    padding: 5%;
+    border: solid lightgray ;
+    border-radius: 5px;
+}
+
+.navbar__box{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.navbar__box a{
+    text-decoration: none;
+    color: #808080;
+}
